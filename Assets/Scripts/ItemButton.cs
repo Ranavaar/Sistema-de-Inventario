@@ -6,7 +6,7 @@ namespace Inventory
 {
 
 
-	public class ItemButtom : MonoBehaviour
+	public class ItemButton : MonoBehaviour
 	{
 		#region Properties
 		public Item CurrentItem

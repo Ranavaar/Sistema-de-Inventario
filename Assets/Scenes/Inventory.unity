@@ -253,6 +253,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 167728674}
+  - component: {fileID: 167728675}
   - component: {fileID: 167728673}
   - component: {fileID: 167728672}
   - component: {fileID: 167728671}
@@ -348,6 +349,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &167728675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167728670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39fc23043cd48ef4381b601ec776d05d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _inventorySystem: {fileID: 240340820}
+  _inventoryPanel: {fileID: 441383001}
+  _useButton: {fileID: 440610481}
+  _sellButton: {fileID: 40861829}
+  _prefabButton: {fileID: 1511262489}
+  _currentItemSelected: {fileID: 0}
 --- !u!1 &240340818
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,10 +411,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18937e5a72ce34f48a965817aee5c574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _ui: {fileID: 167728675}
   _prefabButton: {fileID: 1511262489}
-  _inventoryPanel: {fileID: 441383001}
-  _useButton: {fileID: 440610481}
-  _sellButton: {fileID: 40861829}
   _weapons:
   - <Name>k__BackingField: Axe
     <Damage>k__BackingField: 13
